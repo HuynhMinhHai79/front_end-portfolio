@@ -1,33 +1,36 @@
 "use client"
 import Image from 'next/image'
 import { motion } from 'framer-motion'
-import communication from '../assets/communication.png'
-import figma from '../assets/figma.png'
-import ielts from '../assets/ielts.png'
-import java from '../assets/java.png'
-import teamwork from '../assets/teamwork.png'
-
+import udemy from '../assets/udemy.png'
+import fiverr from '../assets/fiverr.png'
+import elementor from '../assets/elementor.png'
+import logitech from '../assets/logitech.png'
+import oracle from '../assets/oracle.png'
 
 
 const images = [
 
     // repeat 4 times to pop up no space time
-    { src: figma, alt: 'figma' },
-    { src: communication, alt: 'communication' },
-    { src: ielts, alt: 'ielts' },
-    { src: java, alt: 'java' },
-    { src: teamwork, alt: 'teamwork' },
-    { src: figma, alt: 'figma' },
-    { src: communication, alt: 'communication' },
-    { src: ielts, alt: 'ielts' },
-    { src: java, alt: 'java' },
-    { src: teamwork, alt: 'teamwork' },
-    { src: figma, alt: 'figma' },
-    { src: communication, alt: 'communication' },
-    { src: ielts, alt: 'ielts' },
-    { src: java, alt: 'java' },
-    { src: teamwork, alt: 'teamwork' },
- 
+    { src: udemy, alt: 'figma' },
+    { src: fiverr, alt: 'fiverr' },
+    { src: elementor, alt: 'elementor' },
+    { src: logitech, alt: 'logitech' },
+    { src: oracle, alt: 'oracle' },
+    { src: udemy, alt: 'figma' },
+    { src: fiverr, alt: 'fiverr' },
+    { src: elementor, alt: 'elementor' },
+    { src: logitech, alt: 'logitech' },
+    { src: oracle, alt: 'oracle' },
+    { src: udemy, alt: 'figma' },
+    { src: fiverr, alt: 'fiverr' },
+    { src: elementor, alt: 'elementor' },
+    { src: logitech, alt: 'logitech' },
+    { src: oracle, alt: 'oracle' },
+    { src: udemy, alt: 'figma' },
+    { src: fiverr, alt: 'fiverr' },
+    { src: elementor, alt: 'elementor' },
+    { src: logitech, alt: 'logitech' },
+    { src: oracle, alt: 'oracle' },
 ]
 export const LogoAnimaiton = () => {
     return (
@@ -54,7 +57,7 @@ export const LogoAnimaiton = () => {
                                 key={index}
                                 src={image.src}
                                 alt={image.alt}
-                                height={40}
+                                height={30}
                             />
                         ))}
                     </motion.div>
