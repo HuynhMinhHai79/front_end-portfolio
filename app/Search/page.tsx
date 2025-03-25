@@ -86,7 +86,7 @@ const GitHubSearch = () => {
         }
 
         try {
-            const response = await fetch("/api/saveMessage", {
+            const response = await fetch("/api/message/create", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
