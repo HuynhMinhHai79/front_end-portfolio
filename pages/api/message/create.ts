@@ -1,10 +1,7 @@
 import { prisma } from '@/app/lib/prismaClient';
 import type { NextApiRequest, NextApiResponse } from 'next'
 
-type ResponseData = {
-    message: string,
-    status: number
-}
+
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
     try {

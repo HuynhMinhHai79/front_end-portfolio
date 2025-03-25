@@ -104,6 +104,7 @@ const GitHubSearch = () => {
             }
         } catch (error) {
             alert("An error occurred while sending the message.");
+            return error
         }
     };
 
